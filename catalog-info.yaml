@@ -1,0 +1,15 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: nodejs-intive-app10
+  description: Create a starter Node.js backend application with a CI pipeline
+  annotations:
+    backstage.io/kubernetes-id: nodejs-intive-app10    
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: intive-RedHat-Devex-demo/nodejs-intive-app10
+spec:
+  type: api
+  system: intive-idp
+  lifecycle: production
+  owner: intive-RedHat-Devex-demo
